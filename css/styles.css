@@ -294,7 +294,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
       line-height: 1;
 }
 .our-team-image {
-     box-shadow: 10px 2px 10px 10px var(--laight-slate);
+     box-shadow: 0 0 10px 10px var(--laight-slate);
 }
 
 .icons-social-list {
@@ -466,23 +466,26 @@ box-shadow: 0px 4px 4px 0px #00000026;
 
 /*portofoliu*/
 
+.filtres {
+    margin: 0 auto;;
+}
 .filtres-content {
-    width:586px;
+    width: 586px;
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     padding-left: 427px;
-    gap:24px;     
-} 
-
+    padding-top: 96px;
+   
+    gap: 24px;
+}
 .buton-one {
     width:69px ;
     height:48px;
-    background: var(--ocean);
-    padding: 12px, 24px, 12px, 24px;
+    background: var(--ocean); 
     border-radius: 4px;
-
+    border: 1px;
 }
 
 .buton-web-site {       
@@ -491,7 +494,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
     background-color: var(--cloud);
     padding: 12px,24px, 12px, 24px;
     border-radius: 4px ;
-    border: 1px ;
+    border: 1px;
     border-color: var(--cornflwoer);
 }
 
@@ -516,10 +519,10 @@ box-shadow: 0px 4px 4px 0px #00000026;
     border-color: var(--cornflwoer); 
 }
 .filtres-content .butons:focus {
-    box-shadow: 10px 2px 10px 10px var(--cloud);
+    box-shadow: 0 0 10px 10px var(--cloud);
 }
 .filtres-content .butons:hover{
-box-shadow: 10px 2px 10px 10px var(--navy-blue);
+    box-shadow: 0 0 10px 10px var(--navy-blue);
 }
 .filtres-buton {
         font-size: 16px;
@@ -544,16 +547,10 @@ box-shadow: 10px 2px 10px 10px var(--navy-blue);
     color: var(--white);
     cursor: grabbing;
 }
+
 .filtres-buton-one-buton:hover {
     color: var(--iris);
     cursor: grabbing;
-}
-.finger {
-    width: 16px;
-     height: 16px ;
-     top: 213px; 
-     left: 482px;
-     padding: 0px, 1.33px, 0px, 1.33px;
 }
 .projects-row-one-list,
 .projects-row-two-list, 
@@ -570,10 +567,10 @@ box-shadow: 10px 2px 10px 10px var(--navy-blue);
     border: 1px solid var(--cornflwoer);
 }
 .cards-list:focus {
-box-shadow: 10px 2px 10px 10px var(--cloud);
+box-shadow: 0 0 10px 10px var(--cloud);
 }
 .cards-list:hover {
-box-shadow: 10px 2px 10px 10px var(--navy-blue)
+box-shadow: 0 0 10px 10px var(--navy-blue)
 }
 
 .cards-portofolio .h4 {
@@ -592,3 +589,4 @@ box-shadow: 10px 2px 10px 10px var(--navy-blue)
     text-align: left;
     color: var(--salte);
 }
+
